@@ -1,3 +1,4 @@
+// sempre colocar projetos em Pacotes
 package br.com.codenation.desafioexe;
 
 import java.util.ArrayList;
@@ -18,7 +19,8 @@ public class DesafioApplication {
     }
 
     public static Boolean isFibonacci(Integer a) {
-        //Verificar se o elemento existe na ArrayList
+        /*contains: Verificar se o elemento existe na ArrayList
+        return:  pode ser usado no retorno de método ou para simplesmente parar a execução por alí*/
         return (fibonacci().contains(a));
     }
 
